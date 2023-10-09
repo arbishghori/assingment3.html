@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> form </title>
+</head>
+<body>
+   <form>
+   <fieldset>
+   <legend>name:-</legend>
+   <p>
+   <input type="text"name="arbish"size="15"max length="30"/><br/>
+   </p> 
+   <p>
+   password:-
+   <input type="pasword" name="pasword" size="15" maxlength="30"/><br/>
+   </p> 
+   </fieldset>
+   <fieldset>
+   <legend> comments:-</legend>
+   <textarea name="comments">write here</textarea>
+   </p>
+   <p>
+   select your gender:-
+   <input type="radio"name="gender"value="female"/><br/>
+   </p>
+   <p>
+   select your country:-<br/>
+   <input type="checkbox" name="country" value="pakistan"/> pakistan
+   <input type="checkbox" name="country" value="turkey" /> turkey
+   <input type="checkbox" name="country" value="america" /> america<br/>
+   </p>
+   </fieldset>
+   <fieldset>
+   <legend>extras</legend>
+   <p>
+   which device do you listen to music on:-<br/>
+   <select name="instrument" size="3" multiple="multiple"/>
+   <option value="ipod">ipod</option>
+   <option value="speakers">speakers</option>
+   <option value="radio">radio</option>
+   </p>
+   <p>
+   upload your resume:-
+   <input type="file" name="resume"/><br/>
+   <input type="submit" value="upload"/>
+   </p> 
+   <p>
+   subscribe to our email list:-
+   <input type="text" name="email"/><br/>
+   <input type="submit" name="subscribe" value="subscribe"/><br/>
+   </p>
+   <p>
+   subscribe to our email list:-
+   <input type="text" name="email"/>
+   <input type="image" scr="stacks-of-books.jpg"
+   width="100" height="20"/>
+   </p>
+   </fieldset>
+   <fieldset>
+   <legend>sign in</legend>
+   <p>
+   <input type="text" name="username" size="15" maxlength="30" placeholder="type username here"/>
+   <input type="hidden" name="book mark" value="lyrics"/>
+   </p>
+   <p>
+   <label>Age:<input type="text" name="age"></input></label>
+   </p>
+   <p>
+   <label>sign in</label>
+   Date:-
+   <input type="date" name="username" size="15" maxlength="30" placeholder="type username here"/>
+   <input type="search" name="search"/><br/>
+   <input type="submit" value="submit"/>
+   <input type="required" value="required"/>
+   </p>
+   <p>
+   <input type="email" value="email"/>
+   </p>
+   </fieldset>
+   </form>
+</body>
+</html>
